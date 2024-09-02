@@ -23,8 +23,9 @@ SDL_RWops *GetHelloFile(void)
 ```
 
 The same functionality is available for writable files, writing into the repo's
-`save` directory; use the `SAVE_DIR` macro for that. The `save` directory is in
-the repo's `.gitignore`, so that the written files are kept out of Git commits:
+`save` directory; use the `SAVE_DIR` macro for that. The `save` directory has
+its contents in its own `.gitignore` file, so that the written files are kept
+out of Git commits:
 ```c
 #include "SDL.h"
 #include "config.h"
