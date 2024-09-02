@@ -1,0 +1,9 @@
+#ifndef config_h_
+#define config_h_
+
+#define DATA_DIR "@DATA_DIR@"
+#define SAVE_DIR "@SAVE_DIR@"
+
+#endif /* config_h_ */
+
+/* vi: set ts=4 sw=4 expandtab: */

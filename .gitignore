@@ -1,0 +1,18 @@
+# Buildsystem generated files
+/build*
+/out
+/vcpkg_installed
+/CMakeSettings.json
+/.vscode
+/.vs
+/CMakeLists.txt.*
+/*.kdev4
+/*.zip
+/.cache
+/_build/
+/.cproject
+/.project
+/.buildconfig
+
+# Files written by the program
+/save
